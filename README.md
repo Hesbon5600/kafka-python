@@ -1,5 +1,9 @@
 # Apache Kafka with Python
 
+
+https://user-images.githubusercontent.com/32098817/214586214-9fe870db-4d5f-468e-8298-91e3d276f0c5.mov
+
+
 > **[Tutorial Link (Apache Kafka with Python)](https://dev.to/hesbon/apache-kafka-with-python-1bkk-temp-slug-8617370)**
 
 > ## How to set up the project
