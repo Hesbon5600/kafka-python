@@ -1,5 +1,6 @@
 import os
 import time
+import random
 import json
 from kafka import KafkaProducer
 
@@ -18,5 +19,5 @@ while i <= 30:
         json.dumps({"message": f"Hello, Kafka! - test {i}"}).encode("utf-8"),
     )
     i += 1
-    time.sleep(2)
+    time.sleep(random.randint(1, 5))
 producer.flush()

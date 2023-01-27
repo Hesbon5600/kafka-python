@@ -1,6 +1,5 @@
 import os
 from kafka import KafkaConsumer
-from time import sleep
 
 KAFKA_BOOTSTRAP_SERVERS = os.environ.get("KAFKA_BOOTSTRAP_SERVERS", "localhost:29092")
 KAFKA_TOPIC_TEST = os.environ.get("KAFKA_TOPIC_TEST", "test")
@@ -16,4 +15,3 @@ consumer = KafkaConsumer(
 
 for message in consumer:
     print(message.value.decode("utf-8"))
-    sleep(1)
